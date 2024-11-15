@@ -9,12 +9,10 @@ public class CalcPi {
 			for (int i = 1; i < number; i++){
 				if(result == true) {
 					myPi= myPi-(1/index);
-					System.out.println("-" +1/index);
 					result = false;
 				}
 				else{
 					myPi= myPi+(1/index);
-					System.out.println("+"+1/index);
 					result = true;
 				}
 				index= index+2;
