@@ -20,7 +20,7 @@ public class Collatz {
 					counter ++;
 				}while(currentNumber != 1);
 				currentNumber =i+1;
-				System.out.println(currentNumber+" "+numberString+ " ("+counter +")");
+				System.out.println(currentNumber+" "+numberString+ "("+counter +")");
 				counter = 1;
 			}
 			System.out.println("Every one of the first " + number+" hailstone sequences reached 1.");
