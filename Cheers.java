@@ -1,8 +1,9 @@
 // Prints a crowd cheering output.
 public class Cheers {
         public static void main(String[] args) {
-                String word = args[0];
+                String wordFirst = args[0];
                 int number = Integer.parseInt(args[1]);
+                String word = wordFirst.toUpperCase();     
          int stringLenght = word.length();
          for (int i = 0; i < stringLenght; i++){
             char letter =  word.charAt(i);

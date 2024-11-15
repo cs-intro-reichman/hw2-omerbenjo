@@ -8,14 +8,17 @@ public class CalcPi {
 			double index=3;
 			for (int i = 1; i < number; i++){
 				if(result == true) {
-					myPi= (float)myPi-(1/index);
+					myPi= myPi-(1/index);
+					System.out.println("-" +1/index);
 					result = false;
 				}
 				else{
-					myPi= (float)myPi+(1/index);
+					myPi= myPi+(1/index);
+					System.out.println("+"+1/index);
 					result = true;
 				}
 				index= index+2;
+			
 			}
 			System.out.println("pi according to Java: "+Math.PI);
 			System.out.println("pi, approximated:     "+myPi*4);
